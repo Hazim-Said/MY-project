@@ -1,0 +1,449 @@
+@import url("https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", serif;
+}
+p {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 24px;
+  color: rgb(54, 54, 54);
+}
+h1 {
+  font-size: 40px;
+  color: #3b3b3b;
+}
+button {
+  border: none;
+}
+
+header {
+  background-image: url(images/banner-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+a {
+  text-decoration: none;
+}
+#Home .navbar nav {
+  margin-left: 90px;
+  margin-right: -170px;
+}
+#Home .navbar nav .Parent {
+  color: #3b3b3b;
+  font-weight: 400;
+}
+#Home .navbar nav a {
+  padding-left: 20px;
+  font-size: 17px;
+  color: darkgray;
+  transition: all 0.3s ease;
+}
+#Home .navbar nav a:hover {
+  color: #3b3b3b;
+}
+
+#Home .navbar .icon-login-search .fa-magnifying-glass {
+  margin-left: 7rem;
+  color: crimson;
+  font-size: 1rem;
+}
+#Home .navbar .icon-login-search i a {
+  margin-left: 20px;
+  color: crimson;
+}
+#Home .navbar .icon-login-search .fa-user {
+  margin-left: 100px;
+  margin-right: -50px;
+  color: crimson;
+}
+
+.header-contant {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  margin-top: 10rem;
+}
+.header-contant img {
+  margin-left: 10rem;
+}
+
+.header-contant .header-words h1 {
+  color: rgb(29, 18, 18);
+  font-size: 5rem;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+.header-contant .header-words h3 {
+  font-size: 25px;
+  font-weight: 500;
+  color: #e38773;
+}
+.header-contant .header-words p {
+  font-weight: 500;
+  color: rgb(71, 71, 71);
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+.header-contant .header-words .btn-one,
+.btn-two {
+  color: white;
+
+  padding: 15px 50px;
+  border-radius: 5px;
+}
+.header-contant .header-words .btn-one {
+  background-color: #d48272;
+  transition: all 0.3s ease;
+}
+.header-contant .header-words .btn-one:hover {
+  background-color: #3b3b3b;
+}
+.header-contant .header-words .btn-two {
+  background-color: #3b3b3b;
+  margin-left: 8.5px;
+}
+.header-contant .header-words .btn-two:hover {
+  color: white;
+}
+/* start offer */
+#offer,
+#ABOUT,
+#CUSTEMRS,
+#CONTACT {
+  padding: 3rem 0;
+}
+
+.title {
+  text-align: center;
+}
+#offer .title h1,
+#ABOUT .title h1,
+#CUSTEMRS .title h1,
+#BLOG .title h1,
+#CONTACT .title h1 {
+  font-weight: 800;
+  text-transform: uppercase;
+}
+#offer .row {
+  padding: 4rem 0;
+}
+#offer .row .col img {
+  width: 100%;
+  height: 230px;
+}
+#offer .row .col .contnat-col {
+  text-align: center;
+}
+#offer .row .col .contnat-col h3 {
+  font-size: 23px;
+  font-weight: 600;
+  margin-top: 1.5rem;
+}
+#offer .row .col .contnat-col p {
+  color: rgb(70, 69, 69);
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+#offer .row .col .contnat-col a {
+  border: 1px solid #d78373;
+  padding: 10px 40px;
+  border-radius: 5px;
+  color: #d78373;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+#offer .row .col .contnat-col a:hover {
+  border: 1px solid black;
+  color: black;
+}
+
+/* end offer */
+
+/* start about */
+#ABOUT {
+  padding: 11rem 6rem;
+}
+
+#ABOUT .about-coffee {
+  margin-top: 2rem;
+  width: 1110px;
+  height: 550px;
+  position: relative;
+}
+
+#ABOUT .about-coffee .contant-about {
+  position: absolute;
+  top: 40px;
+  left: -100px;
+  border: 1px solid #fff;
+  padding: 70px 30px;
+  border: none;
+  background-color: #fff;
+  box-shadow: 1px 1px 10px gray;
+}
+
+#ABOUT .about-coffee .contant-about p {
+  width: 450px;
+  margin-bottom: 3rem;
+  margin-left: -2px;
+}
+#ABOUT .about-coffee .contant-about a {
+  border: 1px solid #d78373;
+  padding: 15px 37px;
+  border-radius: 5px;
+  color: #d78373;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  font-size: 18px;
+}
+#ABOUT .about-coffee .contant-about a:hover {
+  border: 1px solid black;
+  color: black;
+}
+
+/* end about *
+
+
+/* start custemrs */
+#CUSTEMRS {
+  background-image: url(images/client-bg.png);
+  background-repeat: no-repeat;
+  height: 680px;
+  background-size: 100% 100%;
+  width: 100%;
+  float: left;
+  padding-bottom: 50px;
+}
+#CUSTEMRS .row {
+  /* margin: 3rem 4rem; */
+  margin-left: 50px;
+}
+#CUSTEMRS .row .item {
+  display: flex;
+  margin: 1rem;
+  margin-right: -30px;
+  align-items: center;
+}
+#CUSTEMRS .row .item img {
+  width: 140x;
+  height: 150px;
+}
+#CUSTEMRS .row .item h1 {
+  font-size: 25px;
+  font-weight: 800;
+}
+#CUSTEMRS .row .item p {
+  width: 560px;
+  font-size: 17px;
+}
+#CUSTEMRS .row .item h1,
+p {
+  margin-left: 30px;
+}
+/* end custemrs */
+
+/* start blog */
+#BLOG {
+  padding-top: 50rem;
+  padding-bottom: 6rem;
+}
+#BLOG .row {
+  display: grid;
+  margin-top: 50px;
+  gap: 20px 20px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#BLOG .row .col {
+  padding: 2rem 0;
+}
+
+#BLOG .row .col img {
+  width: 100%;
+  height: 500x;
+}
+#BLOG .row .col h3 {
+  font-size: 20px;
+  font-weight: 800;
+  color: rgb(51, 48, 48);
+  margin-top: 1.5em;
+}
+#BLOG .row .col p {
+  margin-left: -1px;
+  margin-top: 1rem;
+  margin-bottom: 2em;
+}
+
+#BLOG .row .col .contant-blog a {
+  border: 1px solid #d78373;
+  padding: 10px 40px;
+  border-radius: 5px;
+  color: #d78373;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  margin-left: 150px;
+}
+#BLOG .row .col .contant-blog a:hover {
+  border: 1px solid black;
+  color: black;
+}
+/* end blog */
+
+/* start contact  */
+#CONTACT {
+  padding: 3rem 0;
+}
+#CONTACT form {
+  padding: 6rem 0;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 30px 10px;
+}
+#CONTACT form input,
+textarea {
+  width: 600px;
+  border-radius: 50px;
+  border: none;
+  padding: 1rem 1rem;
+  background-color: rgb(231, 230, 228);
+  outline: none;
+  margin-left: 270px;
+}
+#CONTACT form ::placeholder,
+textarea {
+  color: black;
+}
+#CONTACT form button {
+  background-color: #d07d6b;
+  color: white;
+  width: 160px;
+  padding: 0.8rem 0;
+  border-radius: 5px;
+  font-weight: 700;
+  margin-top: 15px;
+  margin-left: 480px;
+  transition: all 0.3s ease;
+}
+#CONTACT form button:hover {
+  background-color: #3b3b3b;
+}
+
+/* end contact */
+
+/* start footer */
+footer {
+  background-image: url(images/footer-bg.png);
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  padding: 5rem 0;
+  text-align: center;
+  position: relative;
+}
+footer h1 {
+  color: #fefefd;
+  font-weight: bold;
+  font-size: 30px;
+}
+footer p {
+  color: white;
+  margin: 3.5rem 2rem;
+  font-size: 16px;
+}
+footer i {
+  color: #fff;
+  transition: all 0.3s ease;
+}
+footer i:hover {
+  color: #d48272;
+}
+
+footer i a {
+  margin-left: 20px;
+  transition: all 0.3s ease;
+}
+footer i a:hover {
+  color: #d48272;
+}
+footer i .phone-icon,
+.email-icon {
+  color: #fff;
+
+}
+footer form{
+ position: absolute;
+ bottom: 0;
+ left: 0;
+transform: translate(530px , 0px); 
+ 
+   
+}
+footer form input{
+  padding: 13px;
+  font-size: 18px;
+  border-radius: 5px;
+  outline-color: #862512;
+  width: 500px;
+  position: relative;
+  margin-left: -150px;
+  
+}
+footer form i {
+  position: absolute;
+  border: 1px solid ;
+  border: none;
+  border-radius: 3px;
+  background-color: #d48272;
+  padding: 15.5px 15px;
+  font-size: 25px;
+  right: -54px;
+  bottom: 0;
+
+}
+
+footer form input::placeholder{
+ 
+  color: #3b3b3b;
+
+}
+
+.footer-copyright {
+  background-color: #d78373;
+  padding: 0.7rem 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer-copyright h3 {
+  font-size: 16px;
+  color: rgb(255, 242, 242);
+}
+.footer-copyright h3 a {
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.footer-copyright h3 a:hover {
+  color: #3b3b3b;
+}
+.footer-copyright i {
+  border: 1px solid #fff;
+  padding: 14px 14px;
+  border-radius: 50%;
+  font-size: 19px;
+  color: #f54d2c;
+  background-color: #fff;
+  margin-left: 3px;
+}
+/* end footer */
